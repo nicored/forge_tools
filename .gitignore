@@ -2,3 +2,4 @@ bin
 .GOPATH
 forge
 .idea
+.DS_Store
