@@ -1,4 +1,4 @@
-module forge_assistant
+module forge_tools
 
 require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
