@@ -1,0 +1,4 @@
+bin
+.GOPATH
+forge
+.idea
