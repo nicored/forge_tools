@@ -18,10 +18,10 @@ This will create a 'forge-cli' binary in your $GOBIN path that you should be abl
 Alternatively you can clone this repository, ```cd``` into it and run ```go get && make```, which will create a 'bin' directory with the 'forge-cli' binary in there.
 
 ### Properties command
-[x] Extracts and prints properties to stdout in Json format from a given directory
-[-] Extracts from gzip and json (currently only supports json)
-[-] Extracts from a given Autodesk urn instead of a directory
-[-] Write more tests
+- [x] Extracts and prints properties to stdout in Json format from a given directory
+- [ ] Extracts from gzip and json (currently only supports json)
+- [ ] Extracts from a given Autodesk urn instead of a directory
+- [ ] Write more tests
 
 #### Properties to Json
 You must have a directory with the following files in it:
@@ -39,9 +39,9 @@ forge-cli properties json /path/to/dir/with/objects/files/
 ```
 
 ### TODO
-[-] More tests
-[-] Dockerize it
-[-] Implement server
-[-] Heroku it
-[-] Forge SDK
-[-] Download derivatives
+- [ ] More tests
+- [ ] Implement server
+- [ ] Dockerize it
+- [ ] Heroku it
+- [ ] Forge SDK
+- [ ] Download derivatives
