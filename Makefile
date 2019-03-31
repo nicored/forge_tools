@@ -13,7 +13,7 @@ all: build
 
 .PHONY: build
 build: .GOPATH/.ok
-	$Q go install $(if $V,-v) $(VERSION_FLAGS) $(IMPORT_PATH)/cmd
+	$Q go install $(if $V,-v) $(VERSION_FLAGS) $(IMPORT_PATH)/forge-cli
 
 ##### =====> Utility targets <===== #####
 
