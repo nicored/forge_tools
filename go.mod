@@ -1,4 +1,4 @@
-module forge_tools
+module github.com/nicored/forge_tools
 
 require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
